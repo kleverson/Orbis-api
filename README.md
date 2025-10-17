@@ -1,7 +1,7 @@
 # 🏗️ Orbis API
 
 **Orbis API** is a modern RESTful backend built with **Spring Boot** and **Spring Security (JWT)**.  
-It provides a robust foundation for authentication, user management, and project tracking — ideal for learning, portfolio demonstration, or real-world application use.
+It provides a robust foundation for authentication, user management, and project tracking.
 
 This project was created as part of a professional portfolio to showcase **backend architecture**, **clean API design**, **secure authentication with JWT**, and **automated documentation using Swagger**.
 
