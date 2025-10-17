@@ -29,11 +29,15 @@ cd orbis-api
 ### 2️⃣ Configure Database
 ```bash
 
+- resouces/application.yml
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/orbis
-spring.datasource.username=postgres
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
+    spring:
+        datasource:
+          url: jdbc:postgresql://localhost:5432/YOUR_DATABASE_NAME
+          username: YOUR_DATABASE_USERNAME
+          password: YOUR_DATABASE_PASSWORD
+          driver-class-name: org.postgresql.Driver
+
 ```
 
 
